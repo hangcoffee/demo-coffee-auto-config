@@ -1,2 +1,20 @@
-neo:
-  hello: helloworld
+spring: 
+  profiles: 
+    active: 
+    - dev
+---
+spring: 
+  profiles: dev	   #开发环境
+  application: 
+    name: microservicecloud-config-coffee-dev	
+eno:
+  hello: hello_dev
+---
+spring:
+  profiles: test   #测试环境
+  application: 
+    name: microservicecloud-config-coffee-test
+eno:
+  hello: hello_test
+
+#  保存为UTF-8格式
