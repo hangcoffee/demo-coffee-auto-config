@@ -6,7 +6,7 @@ spring:
 spring: 
   profiles: dev	   #开发环境
   application: 
-    name: microservicecloud-config-coffee-dev	
+    name: microservicecloud-config-coffee-123	
 eno:
   hello: hello_dev
 ---
