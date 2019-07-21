@@ -8,7 +8,7 @@ spring:
   application: 
     name: microservicecloud-config-coffee-123	
 eno:
-  hello: hello_dev
+  hello: hello_dev123
 ---
 spring:
   profiles: test   #测试环境
