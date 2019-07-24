@@ -9,6 +9,7 @@ spring:
     name: microservicecloud-config-coffee-123	
 eno:
   hello: hello_dev_update
+  world: world_dev
 ---
 spring:
   profiles: test   #测试环境
@@ -16,5 +17,6 @@ spring:
     name: microservicecloud-config-coffee-test
 eno:
   hello: hello_test
+  world: world_test
 
 #  保存为UTF-8格式
